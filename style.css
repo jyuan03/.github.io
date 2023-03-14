@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+
+.Math {
+  width: 90%;
+  background-color: #2f406d;
+}
+.Science {
+  width: 80%;
+  background-color: #2f406d;
+}
+.Chemistry {
+  width: 65%;
+  background-color: #2f406d;
+}
+.Physics {
+  width: 60%;
+  background-color: #2f406d;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #021368;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  text-align: left;
+  margin: 50px 50px 50px 100px;
+  color: #021368;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  text-align: center;
+  margin: 100px 50px 50px 100px;
+  color: #021368;
+}
+
+.details1 {
+  text-align: left;
+  margin: 50px 20px 20px 50px;
+  color: #021368;
+  flex: 1;
+}
+.details2 {
+  text-align: right;
+  margin: 50px 20px 20px 50px;
+  color: #021368;
+  flex: 1;
+}
+
+.subsection1 {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.subsection2 {
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width: 700px) {
+  .container {
+    flex-direction: column;
+  }
+}
